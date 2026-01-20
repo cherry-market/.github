@@ -44,7 +44,7 @@
 
 | 리포지토리 | 설명 |
 | :--- | :--- |
-| **[cherry-market/cherry](https://github.com/cherry-market/cherry)** | 🌐 웹 클라이언트 (React/Vite) |
+| **[cherry-market/cherry-client](https://github.com/cherry-market/cherry-client)** | 🌐 웹 클라이언트 (React/Vite) |
 | **[cherry-market/cherry-server](https://github.com/cherry-market/cherry-server)** | 🖥️ API 서버 |
 
 ---
