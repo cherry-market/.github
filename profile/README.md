@@ -6,6 +6,7 @@
 <div align="center">
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_3)-orange?style=for-the-badge>)](https://github.com/cherry-market/docs/blob/HEAD/reports/shared/TODO.md)
 [![Docs](https://img.shields.io/badge/Documentation-Project_Wiki-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/docs/blob/HEAD/INDEX.md)
 
 </div>
@@ -24,8 +25,8 @@
 
 ## 👋 서비스 소개 (Introduction)
 
-**Cherry**는 범용 중고 거래 플랫폼의 한계를 넘어, **K-POP 굿즈 거래에 최적화된 경험**을 제공하는 C2C 플랫폼입니다.  
-"포토카드, 앨범 등 팬덤 굿즈의 특수성(희소성, 상태 민감도)을 시스템적으로 어떻게 해결할 것인가?"를 기술적으로 풀어냈습니다.
+**Cherry**는 범용 중고 거래 플랫폼의 한계를 넘어, **K-POP 굿즈 거래에 최적화된 경험**을 제공하는 C2C 플랫폼을 목표로 개발 중입니다.  
+"포토카드, 앨범 등 팬덤 굿즈의 특수성(희소성, 상태 민감도)을 시스템적으로 어떻게 해결할 것인가?"를 기술적으로 풀어내고 있습니다.
 
 ### 🚀 핵심 제공 가치 (Key Value Props)
 
