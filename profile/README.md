@@ -6,7 +6,7 @@
 <div align="center">
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_3)-orange?style=for-the-badge>)](https://github.com/cherry-market/docs/blob/HEAD/reports/shared/TODO.md)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_5:_Upload)-orange?style=for-the-badge>)](https://github.com/cherry-market/docs/blob/HEAD/reports/shared/TODO.md)
 [![Docs](https://img.shields.io/badge/Documentation-Project_Wiki-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/docs/blob/HEAD/INDEX.md)
 
 </div>
