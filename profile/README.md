@@ -6,7 +6,7 @@
 <div align="center">
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_5:_Upload)-orange?style=for-the-badge>)](https://github.com/cherry-market/docs/blob/HEAD/reports/shared/TODO.md)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_6:_Search_&_Chat)-orange?style=for-the-badge>)](https://github.com/cherry-market/docs/blob/HEAD/reports/shared/TODO.md)
 [![Docs](https://img.shields.io/badge/Documentation-Project_Wiki-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/docs/blob/HEAD/INDEX.md)
 
 </div>
@@ -60,7 +60,7 @@
 - **[📂 전체 문서 인덱스 (Docs Index)](https://github.com/cherry-market/docs/blob/HEAD/INDEX.md)**
   - **기획**: MVP 정의, [RFP (기능 명세)](https://github.com/cherry-market/docs/blob/HEAD/product/mvp/RFP_01_Product_Search_Filter_Detail.md)
   - **아키텍처**: [시스템 구성도](https://github.com/cherry-market/docs/blob/HEAD/architecture/mvp/ARCHITECTURE.md), [ERD](https://github.com/cherry-market/docs/blob/HEAD/architecture/mvp/mermaid/erd.md)
-  - **API**: [API Specification (v0.1)](https://github.com/cherry-market/docs/blob/HEAD/api/mvp/API_Specification.md)
+  - **API**: [API Specification (v0.2)](https://github.com/cherry-market/docs/blob/HEAD/api/mvp/API_Specification.md)
   - **개발 로그**: [트러블슈팅 및 성능 개선 보고서](https://github.com/cherry-market/docs/blob/HEAD/reports/phase-4/performance_improvement.md)
 
 ---
