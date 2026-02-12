@@ -6,8 +6,8 @@
 <div align="center">
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_6:_Search_&_Chat)-orange?style=for-the-badge>)](https://github.com/cherry-market/docs/blob/HEAD/reports/shared/TODO.md)
-[![Docs](https://img.shields.io/badge/Documentation-Project_Wiki-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/docs/blob/HEAD/INDEX.md)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_6:_Search_&_Chat)-orange?style=for-the-badge>)](#)
+[![Docs](https://img.shields.io/badge/Documentation-Architecture-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/cherry-architecture)
 
 </div>
 
@@ -46,7 +46,7 @@
   - 코드 리뷰 및 최종 머지 승인 (Quality Gatekeeper)
 - **AI-Support (Acceleration)**:
   - 반복적인 보일러플레이트 코드 스캐폴딩
-  - [API 명세](https://github.com/cherry-market/docs/blob/HEAD/api/mvp/API_Specification.md) 및 [개발 히스토리](https://github.com/cherry-market/docs/blob/HEAD/reports/mvp/how-i-used-ai.md) 문서화 자동화
+  - API 명세 및 [개발 히스토리](https://github.com/cherry-market/cherry-architecture/blob/main/engineering/ai-augmented-development.md) 문서화 자동화
   - 테스트 케이스 초안 생성
 
 > 📚 1인 개발의 리소스 한계를 극복하고, **엔터프라이즈급 문서화 커버리지**와 **일관된 아키텍처 품질**을 확보하고 있습니다.
@@ -57,11 +57,11 @@
 
 모든 개발 과정과 의사결정은 문서화되어 관리되고 있습니다.
 
-- **[📂 전체 문서 인덱스 (Docs Index)](https://github.com/cherry-market/docs/blob/HEAD/INDEX.md)**
-  - **기획**: MVP 정의, [RFP (기능 명세)](https://github.com/cherry-market/docs/blob/HEAD/product/mvp/RFP_01_Product_Search_Filter_Detail.md)
-  - **아키텍처**: [시스템 구성도](https://github.com/cherry-market/docs/blob/HEAD/architecture/mvp/ARCHITECTURE.md), [ERD](https://github.com/cherry-market/docs/blob/HEAD/architecture/mvp/mermaid/erd.md)
-  - **API**: [API Specification (v0.2)](https://github.com/cherry-market/docs/blob/HEAD/api/mvp/API_Specification.md)
-  - **개발 로그**: [트러블슈팅 및 성능 개선 보고서](https://github.com/cherry-market/docs/blob/HEAD/reports/phase-4/performance_improvement.md)
+- **[📂 아키텍처 문서 (Architecture Docs)](https://github.com/cherry-market/cherry-architecture)**
+  - **아키텍처**: [시스템 구성도](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/system-overview.md), [ERD](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/erd.md), [CI/CD](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/cicd.md)
+  - **설계 결정**: [ADR (Architecture Decision Records)](https://github.com/cherry-market/cherry-architecture/blob/main/decisions/README.md)
+  - **성능 최적화**: [Redis 캐싱 Before/After 벤치마크](https://github.com/cherry-market/cherry-architecture/blob/main/performance/caching-optimization.md)
+  - **엔지니어링**: [AI-Augmented Development 방법론](https://github.com/cherry-market/cherry-architecture/blob/main/engineering/ai-augmented-development.md)
 
 ---
 
@@ -71,8 +71,8 @@
 | :------------------------------------------------------------------ | :----------- | :------------------------------------------------- |
 | **[cherry-client](https://github.com/cherry-market/cherry-client)** | **Frontend** | React + Vite + FSD Architecture 구현체             |
 | **[cherry-server](https://github.com/cherry-market/cherry-server)** | **Backend**  | Spring Boot REST API Server                        |
-| **[docs](https://github.com/cherry-market/docs)**                   | **Archive**  | 기획서, 아키텍처, 회의록 등 프로젝트 산출물 저장소 |
-| **[ops](https://github.com/cherry-market/ops)**                     | **DevOps**   | AWS 인프라 구축 및 배포 스크립트 (Private)         |
+| **[cherry-architecture](https://github.com/cherry-market/cherry-architecture)** | **Docs** | 시스템 아키텍처, ADR, 성능 분석, 엔지니어링 방법론 |
+| **[ops](https://github.com/cherry-market/ops)**                     | **DevOps**   | AWS 인프라 구축 및 배포 스크립트 (Private)          |
 
 <br>
 
