@@ -67,12 +67,12 @@
 
 ## 📂 리포지토리 (Repositories)
 
-| Repository                                                          | Role         | Description                                        |
-| :------------------------------------------------------------------ | :----------- | :------------------------------------------------- |
-| **[cherry-client](https://github.com/cherry-market/cherry-client)** | **Frontend** | React + Vite + FSD Architecture 구현체             |
-| **[cherry-server](https://github.com/cherry-market/cherry-server)** | **Backend**  | Spring Boot REST API Server                        |
-| **[cherry-architecture](https://github.com/cherry-market/cherry-architecture)** | **Docs** | 시스템 아키텍처, ADR, 성능 분석, 엔지니어링 방법론 |
-| **[ops](https://github.com/cherry-market/ops)**                     | **DevOps**   | AWS 인프라 구축 및 배포 스크립트 (Private)          |
+| Repository                                                                      | Role         | Description                                        |
+| :------------------------------------------------------------------------------ | :----------- | :------------------------------------------------- |
+| **[cherry-client](https://github.com/cherry-market/cherry-client)**             | **Frontend** | React + Vite + FSD Architecture 구현체 (Private)   |
+| **[cherry-server](https://github.com/cherry-market/cherry-server)**             | **Backend**  | Spring Boot REST API Server (Private)              |
+| **[cherry-architecture](https://github.com/cherry-market/cherry-architecture)** | **Docs**     | 시스템 아키텍처, ADR, 성능 분석, 엔지니어링 방법론 |
+| **[ops](https://github.com/cherry-market/ops)**                                 | **DevOps**   | AWS 인프라 구축 및 배포 스크립트 (Private)         |
 
 <br>
 
