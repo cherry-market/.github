@@ -6,8 +6,8 @@
 <div align="center">
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_6:_Search_&_Chat)-orange?style=for-the-badge>)](#)
 [![Docs](https://img.shields.io/badge/Documentation-Architecture-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/cherry-architecture)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_8:_MyPage_&_Profile)-orange?style=for-the-badge>)](#)
 
 </div>
 
@@ -18,7 +18,7 @@
 | Category        | Stack & Architecture                                                      |
 | :-------------- | :------------------------------------------------------------------------ |
 | **Frontend**    | **React, TypeScript, FSD (Feature-Sliced Design)**, Zustand, Tailwind CSS |
-| **Backend**     | **Spring Boot 3, Java 21**, JPA, MySQL, Redis, AWS (EC2/S3/RDS)           |
+| **Backend**     | **Spring Boot 3, Java 21**, JPA, MySQL, Redis, WebSocket/STOMP, AWS (EC2/S3/RDS) |
 | **Methodology** | **AI-Augmented Development** (Human Architect + AI Scaffolding)           |
 
 ---
@@ -30,8 +30,8 @@
 
 ### 🚀 핵심 제공 가치 (Key Value Props)
 
-- **버티컬 최적화**: 아티스트/멤버/상품 타입별 계층적 구조화 및 필터링 시스템 구축
-- **신뢰 기반 거래**: '매너 온도' 및 '실명 인증' 기반의 안전한 1:1 채팅 거래 환경
+- **버티컬 최적화**: 아티스트/멤버/상품 타입별 계층적 구조화, 필터링, MySQL FULLTEXT 검색 시스템 구축
+- **실시간 채팅 거래**: WebSocket/STOMP 기반 1:1 실시간 채팅, 읽음 확인, 메시지 큐잉, 채팅 내 거래 상태 변경
 - **상태 시각화**: `판매중` → `예약중` → `판매완료` 트랜잭션 상태 관리 및 UX 시각화
 
 ---
