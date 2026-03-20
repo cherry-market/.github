@@ -7,7 +7,7 @@
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
 [![Docs](https://img.shields.io/badge/Documentation-Architecture-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/cherry-architecture)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_8:_MyPage_&_Profile)-orange?style=for-the-badge>)](#)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_9:_Admin_&_Report_&_Block)-orange?style=for-the-badge>)](#)
 
 </div>
 
