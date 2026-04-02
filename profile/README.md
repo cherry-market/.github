@@ -7,7 +7,7 @@
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
 [![Docs](https://img.shields.io/badge/Documentation-Architecture-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/cherry-architecture)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_9:_Admin_&_Report_&_Block)-orange?style=for-the-badge>)](#)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_9_Complete)-brightgreen?style=for-the-badge>)](#)
 
 </div>
 
@@ -18,6 +18,7 @@
 | Category        | Stack & Architecture                                                      |
 | :-------------- | :------------------------------------------------------------------------ |
 | **Frontend**    | **React, TypeScript, FSD (Feature-Sliced Design)**, Zustand, Tailwind CSS |
+| **Admin**       | **React, TypeScript**, Zustand, Tailwind CSS (데스크톱 전용 관리자 앱) |
 | **Backend**     | **Spring Boot 3, Java 21**, JPA, MySQL, Redis, WebSocket/STOMP, AWS (EC2/S3/RDS) |
 | **Methodology** | **AI-Augmented Development** (Human Architect + AI Scaffolding)           |
 
@@ -33,6 +34,7 @@
 - **버티컬 최적화**: 아티스트/멤버/상품 타입별 계층적 구조화, 필터링, MySQL FULLTEXT 검색 시스템 구축
 - **실시간 채팅 거래**: WebSocket/STOMP 기반 1:1 실시간 채팅, 읽음 확인, 메시지 큐잉, 채팅 내 거래 상태 변경
 - **상태 시각화**: `판매중` → `예약중` → `판매완료` 트랜잭션 상태 관리 및 UX 시각화
+- **신고/차단/관리자 시스템**: 사용자 신고·차단, 관리자 대시보드, 제재(경고/정지/차단), 감사 로그, 4중 보안 방어
 
 ---
 
@@ -58,7 +60,7 @@
 모든 개발 과정과 의사결정은 문서화되어 관리되고 있습니다.
 
 - **[📂 아키텍처 문서 (Architecture Docs)](https://github.com/cherry-market/cherry-architecture)**
-  - **아키텍처**: [시스템 구성도](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/system-overview.md), [ERD](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/erd.md), [CI/CD](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/cicd.md)
+  - **아키텍처**: [시스템 구성도](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/system-overview.md), [ERD](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/erd.md), [CI/CD](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/cicd.md), [관리자 도메인](https://github.com/cherry-market/cherry-architecture/blob/main/architecture/admin-domain.md)
   - **설계 결정**: [ADR (Architecture Decision Records)](https://github.com/cherry-market/cherry-architecture/blob/main/decisions/README.md)
   - **성능 최적화**: [Redis 캐싱 Before/After 벤치마크](https://github.com/cherry-market/cherry-architecture/blob/main/performance/caching-optimization.md)
   - **엔지니어링**: [AI-Augmented Development 방법론](https://github.com/cherry-market/cherry-architecture/blob/main/engineering/ai-augmented-development.md)
@@ -72,6 +74,7 @@
 | **[cherry-client](https://github.com/cherry-market/cherry-client)**             | **Frontend** | React + Vite + FSD Architecture 구현체 (Private)   |
 | **[cherry-server](https://github.com/cherry-market/cherry-server)**             | **Backend**  | Spring Boot REST API Server (Private)              |
 | **[cherry-architecture](https://github.com/cherry-market/cherry-architecture)** | **Docs**     | 시스템 아키텍처, ADR, 성능 분석, 엔지니어링 방법론 |
+| **[cherry-admin](https://github.com/cherry-market/cherry-admin)**               | **Admin**    | 관리자 대시보드 웹 애플리케이션 (Private)          |
 | **[ops](https://github.com/cherry-market/ops)**                                 | **DevOps**   | AWS 인프라 구축 및 배포 스크립트 (Private)         |
 
 <br>
