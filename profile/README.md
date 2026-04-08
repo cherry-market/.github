@@ -7,7 +7,7 @@
 
 [![Service URL](https://img.shields.io/badge/Service-cheryi.com-FF2E88?style=for-the-badge&logo=safari&logoColor=white)](https://cheryi.com)
 [![Docs](https://img.shields.io/badge/Documentation-Architecture-blue?style=for-the-badge&logo=gitbook&logoColor=white)](https://github.com/cherry-market/cherry-architecture)
-[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_9_Complete)-brightgreen?style=for-the-badge>)](#)
+[![Status](<https://img.shields.io/badge/Status-Under_Development_(Phase_10_In_Progress)-brightgreen?style=for-the-badge>)](#)
 
 </div>
 
@@ -35,6 +35,7 @@
 - **실시간 채팅 거래**: WebSocket/STOMP 기반 1:1 실시간 채팅, 읽음 확인, 메시지 큐잉, 채팅 내 거래 상태 변경
 - **상태 시각화**: `판매중` → `예약중` → `판매완료` 트랜잭션 상태 관리 및 UX 시각화
 - **신고/차단/관리자 시스템**: 사용자 신고·차단, 관리자 대시보드, 제재(경고/정지/차단), 감사 로그, 4중 보안 방어
+- **소셜 로그인** _(Phase 10, 진행 중)_: Google/Kakao OAuth2 통합, 기존 JWT 아키텍처와 호환되는 클라이언트 주도 인증 흐름
 
 ---
 
